@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Heart, Menu, UserRound } from "lucide-react";
 
-const navItems = ["Destinos", "Experiencias", "Barcos", "Sobre o clube", "Para empresas"];
+const navItems = ["Destinos", "Experiências", "Barcos", "Sobre o clube", "Para empresas"];
 
 export function Header() {
   return (
