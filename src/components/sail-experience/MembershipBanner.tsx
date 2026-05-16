@@ -11,7 +11,7 @@ export function MembershipBanner() {
             <Sparkles size={23} />
           </span>
           <h2 className="max-w-2xl text-3xl font-semibold leading-tight text-[#0B0B0B] md:text-5xl">
-            Seja membro e viva o mar com mais beneficios.
+            Seja membro e viva o mar com mais benefícios.
           </h2>
           <div className="mt-8 grid gap-3 sm:grid-cols-2">
             {membershipBenefits.map((benefit) => (
@@ -36,7 +36,7 @@ export function MembershipBanner() {
         <div className="relative min-h-[360px] lg:min-h-[520px]">
           <Image
             src="https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&w=1400&q=85"
-            alt="Experiencia nautica premium para membros"
+            alt="Experiência náutica premium para membros"
             fill
             sizes="(min-width: 1024px) 45vw, 100vw"
             className="object-cover"
