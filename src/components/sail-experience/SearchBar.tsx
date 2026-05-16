@@ -23,7 +23,7 @@ export function SearchBar() {
     <form
       onSubmit={handleSubmit}
       className="section-shell absolute inset-x-0 bottom-0 z-20 translate-y-1/2 rounded-[32px] border border-[#EAEAEA] bg-white p-3 shadow-[0_24px_80px_rgba(0,0,0,0.14)]"
-      aria-label="Buscar experiencias no mar"
+      aria-label="Buscar experiências no mar"
     >
       <div className="grid gap-2 md:grid-cols-[1.15fr_1fr_1fr_auto] md:items-center">
         <label className="flex min-h-20 items-center gap-4 rounded-[24px] px-5 transition focus-within:bg-[#FFF7F9]">
@@ -68,7 +68,7 @@ export function SearchBar() {
         <button
           type="submit"
           className="flex min-h-16 items-center justify-center gap-2 rounded-full bg-[#FF9CAF] px-7 text-sm font-semibold text-[#171717] shadow-[0_12px_32px_rgba(255,156,175,0.45)] transition hover:bg-[#FFD6DF] md:size-16 md:px-0"
-          aria-label="Buscar experiencias"
+          aria-label="Buscar experiências"
         >
           <Search size={22} />
           <span className="md:hidden">Buscar</span>
