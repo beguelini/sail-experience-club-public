@@ -2,7 +2,7 @@ import { benefits } from "@/data/sailExperience";
 
 export function BenefitsStrip() {
   return (
-    <section className="section-shell pb-10 pt-32 md:pb-16 md:pt-36" aria-label="Beneficios">
+    <section className="section-shell pb-10 pt-32 md:pb-16 md:pt-36" aria-label="Benefícios">
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {benefits.map((benefit) => {
           const Icon = benefit.icon;
