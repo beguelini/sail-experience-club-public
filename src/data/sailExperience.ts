@@ -7,25 +7,25 @@ export const popularDestinations: Destination[] = [
     name: "Angra dos Reis",
     state: "Rio de Janeiro",
     imageUrl: "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1200&q=85",
-    description: "Ilhas preservadas, aguas calmas e roteiros de alto padrao."
+    description: "Ilhas preservadas, águas calmas e roteiros de alto padrão."
   },
   {
     id: "ilha-grande",
     name: "Ilha Grande",
     state: "Rio de Janeiro",
     imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85",
-    description: "Baias escondidas e travessias para dias inteiros no mar."
+    description: "Baías escondidas e travessias para dias inteiros no mar."
   },
   {
     id: "fernando-de-noronha",
     name: "Fernando de Noronha",
     state: "Pernambuco",
     imageUrl: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=85",
-    description: "Experiencias exclusivas em um dos destinos mais desejados do Brasil."
+    description: "Experiências exclusivas em um dos destinos mais desejados do Brasil."
   },
   {
     id: "buzios",
-    name: "Buzios",
+    name: "Búzios",
     state: "Rio de Janeiro",
     imageUrl: "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1200&q=85",
     description: "Mar azul, enseadas elegantes e passeios sob medida."
@@ -35,7 +35,7 @@ export const popularDestinations: Destination[] = [
     name: "Salvador",
     state: "Bahia",
     imageUrl: "https://images.unsplash.com/photo-1528154291023-a6525fabe5b4?auto=format&fit=crop&w=1200&q=85",
-    description: "Baia de Todos-os-Santos com curadoria, conforto e cultura."
+    description: "Baía de Todos-os-Santos com curadoria, conforto e cultura."
   }
 ];
 
@@ -43,31 +43,31 @@ export const experienceCategories: ExperienceCategory[] = [
   {
     id: "vela",
     title: "Vela",
-    description: "Navegacoes com skipper, por do sol e rotas costeiras selecionadas.",
+    description: "Navegações com skipper, pôr do sol e rotas costeiras selecionadas.",
     icon: Sailboat
   },
   {
     id: "passeios-de-lancha",
     title: "Passeios de Lancha",
-    description: "Dias no mar com conforto, roteiro flexivel e paradas especiais.",
+    description: "Dias no mar com conforto, roteiro flexível e paradas especiais.",
     icon: Anchor
   },
   {
     id: "pesca-esportiva",
     title: "Pesca Esportiva",
-    description: "Saidas guiadas para grupos que buscam tecnica, emocao e seguranca.",
+    description: "Saídas guiadas para grupos que buscam técnica, emoção e segurança.",
     icon: Fish
   },
   {
     id: "dia-de-praia",
     title: "Dia de Praia",
-    description: "Experiencias leves para relaxar, nadar e aproveitar praias acessiveis pelo mar.",
+    description: "Experiências leves para relaxar, nadar e aproveitar praias acessíveis pelo mar.",
     icon: Umbrella
   },
   {
     id: "experiencias-exclusivas",
-    title: "Experiencias Exclusivas",
-    description: "Roteiros privativos, celebracoes e momentos desenhados sob medida.",
+    title: "Experiências Exclusivas",
+    description: "Roteiros privativos, celebrações e momentos desenhados sob medida.",
     icon: Sparkles
   }
 ];
@@ -76,33 +76,33 @@ export const benefits: Benefit[] = [
   {
     id: "curadoria-premium",
     title: "Curadoria Premium",
-    description: "Operadores, rotas e experiencias avaliadas com cuidado.",
+    description: "Operadores, rotas e experiências avaliadas com cuidado.",
     icon: BadgeCheck
   },
   {
     id: "membros-tem-mais",
-    title: "Membros tem mais",
-    description: "Beneficios, convites e condicoes especiais para o clube.",
+    title: "Membros têm mais",
+    description: "Benefícios, convites e condições especiais para o clube.",
     icon: Crown
   },
   {
     id: "seguranca-em-primeiro",
-    title: "Seguranca em primeiro",
-    description: "Criterios claros para embarcacoes, tripulacao e operacao.",
+    title: "Segurança em primeiro",
+    description: "Critérios claros para embarcações, tripulação e operação.",
     icon: ShieldCheck
   },
   {
     id: "suporte-dedicado",
     title: "Suporte dedicado",
-    description: "Acompanhamento humano antes, durante e depois da experiencia.",
+    description: "Acompanhamento humano antes, durante e depois da experiência.",
     icon: LifeBuoy
   }
 ];
 
 export const membershipBenefits = [
   "Descontos exclusivos",
-  "Experiencias unicas",
-  "Atendimento prioritario",
+  "Experiências únicas",
+  "Atendimento prioritário",
   "Convites para eventos"
 ];
 
